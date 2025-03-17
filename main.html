@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Load Example</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Create a new text node with the message
+            const textNode = document.createTextNode('DOM load success');
+            
+            // Append the text node directly to the body
+            document.body.appendChild(textNode);
+        });
+    </script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <!-- Body is empty as per requirements -->
 </body>
-
 </html>
